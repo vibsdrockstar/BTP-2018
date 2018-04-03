@@ -34,7 +34,7 @@ public class Listen extends AppCompatActivity {
             public void onClick(View v) {
                 textToSpeech.speak("Hello Patient",TextToSpeech.QUEUE_FLUSH,null);
 
-                /*String filename ="C:\\Users\\vibhor\\Desktop\\Jobs.txt";
+                String filename ="C:\\Users\\vibhor\\Desktop\\Jobs.txt";
                 String line = null;
                 String textToSpeak = "";
                 try{
@@ -49,7 +49,7 @@ public class Listen extends AppCompatActivity {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                textToSpeech.speak(textToSpeak,TextToSpeech.QUEUE_FLUSH,null)*/;
+                textToSpeech.speak(textToSpeak,TextToSpeech.QUEUE_FLUSH,null);
 
             }
             });
