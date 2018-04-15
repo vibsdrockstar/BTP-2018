@@ -1,4 +1,4 @@
-package com.example.vibhor.daid;
+package com.example.vibhor.handicapped;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
