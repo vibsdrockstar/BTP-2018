@@ -7,8 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.vibhor.daid.Details">
-
+    tools:context="com.example.vibhor.handicapped.Details">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,32 +27,35 @@
         android:layout_marginTop="56dp"
         android:layout_alignEnd="@+id/tv_details" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOVERNMENT EMPLOYEES AND PERSONS"
+        android:id="@+id/b_goep"
+        android:onClick="OpenDetails"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/tv_details" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOBS AND EDUCATION"
+        android:id="@+id/b_jobedu"
+        android:onClick="OpenDetails"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/et_d1" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/et_d2"
-        android:hint="Disability"
+        android:id="@+id/et_age"
+        android:hint="Age"
+        android:inputType="number"
+        android:ems="2"
         android:layout_below="@+id/et_d1"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/et_d1" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="READ TEXT"
-        android:id="@+id/b_read"
-        android:onClick="OpenDetails"
-        android:layout_below="@+id/et_d2"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="99dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="LISTEN"
-        android:id="@+id/b_listen"
-        android:onClick="OpenDetails"
-        android:layout_alignTop="@+id/b_read"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/et_d2" />
+        android:layout_toStartOf="@+id/b_jobedu" />
 </RelativeLayout>
+
+
