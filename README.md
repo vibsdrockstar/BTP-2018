@@ -1,5 +1,5 @@
 # BTP-2018
-Disability Guide android app  for the disabled to look  and listen to  various schemes proposed by Indian govenment to help physically challenged.
+Disability Guide android app  for the disabled to look  and listen to  various schemes proposed by Indian govenment to help disabled.
 ![pp1](https://user-images.githubusercontent.com/18600300/42487886-a9baf490-8420-11e8-93d8-9d9424515bf2.jpg)
 ![pp2](https://user-images.githubusercontent.com/18600300/42487890-b0f115b4-8420-11e8-935a-03b27e6aee82.jpg)
 ![pp3](https://user-images.githubusercontent.com/18600300/42487893-b66b8e66-8420-11e8-9725-4b28e20990eb.jpg)
